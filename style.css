@@ -1,0 +1,207 @@
+body {
+    background-color: #f1faff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url(Hero.png) no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 380px;
+}
+
+.header .title {
+    width: 100%;
+    text-align: center;
+    margin-top: 89px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px #1b1c32;
+}
+
+#areaId {
+    width: 452px;
+    height: 48px;
+    background-color: #ffffffb0;
+    border: 3px solid #ffffff;
+}
+
+.HotArea {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    top: 300px;
+    width: 800px;
+    height: 112px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-family: "AppleSystemUIFont";
+    font-size: 18px;
+    color: #000000;
+}
+
+.HotArea p {
+    width: 100%;
+    margin: 10px;
+}
+
+.HotArea_btn>li>img {
+    height: 155px;
+    width: 464px;
+}
+
+.HotArea_btn {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 606px;
+}
+
+.HotArea_btn li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 130px;
+    height: 42px;
+    color: #ffff;
+}
+
+.HotArea_btn>li:nth-child(1) {
+    background: #8a82cc;
+}
+
+.HotArea_btn>li:nth-child(2) {
+    background: #ffa782;
+}
+
+.HotArea_btn>li:nth-child(3) {
+    background: #f5d005;
+}
+
+.HotArea_btn>li:nth-child(4) {
+    background: #559ac8;
+}
+
+.dividers {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5%;
+    border-top: 2px dashed #559ac8;
+}
+
+.ImgRadius {
+    margin-top: -1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 24px;
+    border: 1.5px solid #559ac8;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.ImgRadius img {
+    filter: opacity(0.5) drop-shadow(0 0 0 #559ac8);
+}
+
+.ListBody {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    min-height: 378px;
+}
+
+.dividersWidth {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.SelectareaZone {
+    width: 100%;
+    text-align: center;
+    margin: 4% 0% 2% 0%;
+    font-family: "SFNSDisplay";
+    font-size: 36px;
+    color: #8a82cc;
+}
+
+.ListAreaImg {
+    width: 464px;
+    height: 155px;
+}
+
+.ListBox {
+    max-width: 464px;
+    height: 300px;
+    padding-bottom: 69px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Listicon {
+    width: 18px;
+    height: 18px;
+}
+
+.list {
+    width: 63%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.list li {
+    margin: 0% 1.3% 4% 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background: #559ac8;
+}
+
+.footer>div {
+    width: 100%;
+    text-align: center;
+}
+
+.footer>div:nth-child(1) {
+    color: white;
+}
+
+.footer>div:nth-child(2) {
+    color: #ffd366;
+}
+
+.ListBox div {
+    padding: 2%;
+}
+
+.AreaImg_Picdescribe {
+    position: absolute;
+    margin-top: -4.3%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0000005e;
+    color: white;
+    width: 403px;
+    height: 2px;
+}
